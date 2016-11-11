@@ -1,7 +1,7 @@
 function addEmail(){
   var promise = $.post({
     data: $(email).val(),
-    url: "http://192.241.235.59/api/addEmail"
+    url: "http://192.241.235.59:3000/api/addEmail"
   });
 }
 
