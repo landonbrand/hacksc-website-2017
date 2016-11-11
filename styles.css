@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  background-color: #333;
+  background: linear-gradient(45deg, #f2c04d 0%, #eb5757 49.999999%,#ffffff 49.999999%,#ffffff 100%);
+}
+
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  background: linear-gradient(23deg, #f2c04d 0%, #ED6F55 49.999999%,#ffffff 49.999999%,#ffffff 100%);
+  padding-bottom: 200px;
+}
+
+.main-content {
+  background-color: #fff;
+  position: relative;
+  display: block;
+  left: auto; right: auto;
+  margin-left: auto; margin-right: auto;
+  text-align: left;
+  max-width: 553px;
+  padding: 80px;
+  padding-top: 0;
+  width: 60%;
+  font-size: 1em;
+  vertical-align: top;
+}
+
+.info-block {
+  margin-top: 50px;
+}
+
+.logo {
+  max-width: 250px;
+  height: auto;
+  margin-top: 68px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.centerizer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.centered {
+  min-width: 0px;
+}
+
+.input-bar {
+  margin-top: 50px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+input[type="text"]{
+  font-family: 'Roboto Mono', monospace;
+  height: 49px;
+  width: 100%;
+  background-color: #E0E0E0;
+  box-sizing: border-box;
+  border: none;
+  font-size: 14px;
+  vertical-align: bottom;
+  width: 67%;
+  padding: 0;
+  float: left;
+  color: #A4A4A4;
+  padding-left: 20px;
+}
+
+input[type="text"]:focus{
+  outline: none;
+}
+
+input[type="button"]{
+  font-family: 'Roboto Mono', monospace;
+  height: 49px;
+  margin: 0;
+  background-color: #F09F50;
+  color: #fff;
+  font-size: 0.9em;
+  border: none;
+  cursor: pointer;
+  vertical-align: bottom;
+  width: 33%;
+  padding: 0;
+  float: left;
+}
+
+input[type="button"]:active{
+  background-color: #C26811;
+}
+
+input[type="button"]:focus{
+  outline: none;
+}
+
+
+@media (max-width: 600px) {
+  .logo {
+    margin-bottom: 50px;
+  }
+  .main-content {
+    padding: 20px;
+    width: 80%;
+    padding-top: 0;
+  }
+  p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .info-block {
+    margin-top: 50px;
+  }
+}
